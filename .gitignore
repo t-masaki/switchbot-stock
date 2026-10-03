@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.terraform/
+*.tfstate*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+terraform/lambda.zip
+response.json
+.env*
+# Commit .terraform.lock.hcl after terraform init.

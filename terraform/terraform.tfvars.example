@@ -1,0 +1,9 @@
+aws_region = "ap-northeast-1"
+name = "switchbot-stock"
+ssm_prefix = "/switchbot-stock"
+schedule_enabled = true
+# Never put Token, Secret or Device ID here.
+
+# Confirm these IDs in your editor and publish the template to your device first.
+template_id = 5874
+component_id = 801332647

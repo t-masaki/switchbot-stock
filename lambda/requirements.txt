@@ -1,0 +1,4 @@
+# No pip installation is needed for the deployment ZIP.
+# AWS Lambda Python 3.13 supplies boto3; HTTP calls use the standard library.
+# For the local credential setup helper only:
+boto3>=1.35,<2
